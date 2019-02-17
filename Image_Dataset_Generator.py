@@ -30,14 +30,14 @@ while number_of_images < MAX_NUMBER_OF_IMAGES:
 		cv2.rectangle(frame, (x,y),(x+w,y+h),(0,255,0),2)
 		roi = frame[y:y+h, x:x+w]
 		if count == 10:
-			cv2.imwrite(os.path.join(directory, str(number_of_images)+'.jpg'), roi)
+			cv2.imwrite(os.path.join(directory, str(name+str(number_of_images)+'.jpg')), roi)
 			number_of_images += 1
 			count = 0
-		count+=1
 		print(count)
+		count+=1
+		
 
 	cv2.imshow('Video', frame)
-	cv2.waitKey(200)
 
 	if(cv2.waitKey(1) & 0xFF == ord('q')):
 		break
