@@ -18,6 +18,7 @@ if not os.path.exists(directory):
 
 number_of_images = 0
 MAX_NUMBER_OF_IMAGES = 10
+count = 0
 
 while number_of_images < MAX_NUMBER_OF_IMAGES:
 	ret, frame = video_capture.read()
@@ -28,8 +29,12 @@ while number_of_images < MAX_NUMBER_OF_IMAGES:
 	for(x,y,w,h) in faces:
 		cv2.rectangle(frame, (x,y),(x+w,y+h),(0,255,0),2)
 		roi = frame[y:y+h, x:x+w]
-		cv2.imwrite(os.path.join(directory, str(number_of_images)+'.jpg'), roi)
-		number_of_images += 1
+		if count == 10:
+			cv2.imwrite(os.path.join(directory, str(number_of_images)+'.jpg'), roi)
+			number_of_images += 1
+			count = 0
+		count+=1
+		print(count)
 
 	cv2.imshow('Video', frame)
 	cv2.waitKey(200)
