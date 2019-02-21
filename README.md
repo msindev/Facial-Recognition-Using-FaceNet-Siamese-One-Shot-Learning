@@ -34,4 +34,7 @@ To generate your own dataset and add more faces to the system, use the following
 To use the facial recognition system, run the command : 
 `python face_recognizer.py` 
 
+### References
 
+ 1. The code has been implemented using deeplearning.ai course Convolutional Networks Week 4 Assignment.
+ 2. The keras implementation of the model is by Victor Sy Wang's implementation and was loaded using his code:  [https://github.com/iwantooxxoox/Keras-OpenFace](https://github.com/iwantooxxoox/Keras-OpenFace).
