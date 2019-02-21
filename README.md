@@ -36,5 +36,5 @@ To use the facial recognition system, run the command :
 
 ### References
 
- 1. The code has been implemented using deeplearning.ai course Convolutional Networks Week 4 Assignment.
+ 1. The code has been implemented using deeplearning.ai course Convolutional Networks Week 4 Assignment, which has the files `fr_utils.py` and `inception_blocks_v2.py`
  2. The keras implementation of the model is by Victor Sy Wang's implementation and was loaded using his code:  [https://github.com/iwantooxxoox/Keras-OpenFace](https://github.com/iwantooxxoox/Keras-OpenFace).
