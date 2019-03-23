@@ -5,7 +5,6 @@ import glob
 from scipy.spatial import distance
 from imutils import face_utils
 from keras.models import load_model
-from keras.utils import CustomObjectScope
 import tensorflow as tf
 
 from fr_utils import *
