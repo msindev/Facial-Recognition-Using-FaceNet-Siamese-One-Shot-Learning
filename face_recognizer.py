@@ -11,7 +11,7 @@ from fr_utils import *
 from inception_blocks_v2 import *
 
 #with CustomObjectScope({'tf': tf}):
-FR_model = load_model('face-rec_Google.h5')
+FR_model = load_model('nn4.small2.v1.h5')
 print("Total Params:", FR_model.count_params())
 
 face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
