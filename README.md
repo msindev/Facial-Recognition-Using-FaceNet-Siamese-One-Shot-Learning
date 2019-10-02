@@ -31,7 +31,7 @@ To generate your own dataset and add more faces to the system, use the following
 > Use the Image_Dataset_Generator.py script to save 50 images of your face.
 > Use this command: `python Image_Dataset_Generator.py` to generate images which will be saved in images folder.
 
-To use the facial recognition system, run the command : 
+To use the facial recognition system, run the command on your terminal : 
 `python face_recognizer.py` 
 
 ### References
