@@ -1,5 +1,5 @@
 # Facial-Recognition-Using-FaceNet-Siamese-One-Shot-Learning
-This program is used to implement Facial Recognition using Siamese Network architecture. The implementation of the project is based on the research paper : 
+This program has been used to implement Facial Recognition using Siamese Network architecture. The implementation of the project is based on the research paper : 
 
 > FaceNet: A Unified Embedding for Face Recognition and Clustering
 > [arXiv:1503.03832](https://arxiv.org/abs/1503.03832) by [Florian Schroff](https://arxiv.org/search/cs?searchtype=author&query=Schroff%2C+F), [Dmitry Kalenichenko](https://arxiv.org/search/cs?searchtype=author&query=Kalenichenko%2C+D), [James Philbin](https://arxiv.org/search/cs?searchtype=author&query=Philbin%2C+J)
