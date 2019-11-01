@@ -21,7 +21,7 @@ Facenet implements concept of Triplet Loss function to minimize the distance bet
 Install the packages using `pip install -r requirements.txt`
 
 ### Usage
-To use the facial recognition system, you need to have a database of images through which the model will calculate image embeddings and show the output. 
+To use the facial recognition system, you need to have a database of images through which the model will calculate image embeddings and show the output vector. 
 The images which are in the database are stored as .jpg files in the directory `./images`.
 
 
